@@ -68,7 +68,7 @@ function FixedSocialIcons() {
           </li>
           <li className="item">
             <a
-              href="https://github.com/"
+              href="https://github.com/Kaneki-Ken993?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
             >

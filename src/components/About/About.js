@@ -22,10 +22,10 @@ function About() {
             <div className="AboutBio">
               <ScrollAnimation animateIn="animate__fadeInLeft">
                 Salut, C'est <strong>Omar El Hadi</strong>. Actuellement en formation pour devenir
-                Développeur web á
-                <strong>Web@cademie By Epitech Marseille</strong>, je suis à la
-                recherch d´un contrat d´alternance de 14 mois à partir de
-                septembre 2024, je suis un jeune étudiant souhaitant se
+                Développeur web á la
+                <strong> Web@Cadémie By Epitech Marseille</strong>, je suis à la
+                recherch d'un contrat d'alternance de 14 mois à partir de maintenant,
+                je suis un jeune étudiant souhaitant se
                 spécialisant dans le développement web. J'oriente mes études
                 dans ce domaine, guidé par mon désir d'apprendre et ma
                 curiosité. En tant que passionné, j'aime participer activement
@@ -48,8 +48,7 @@ function About() {
               <br />
               <ScrollAnimation animateIn="animate__fadeInLeft">
                 Si vous souhaitez en apprendre plus sur moi, ou me contacter,
-                n'hésitez plus, vous pouvez explorer ce site ou télécharger mon
-                CV ! :)
+                n'hésitez plus.
                 <br />
                 <br />
                 <br /> 
