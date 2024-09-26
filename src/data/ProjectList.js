@@ -1,27 +1,27 @@
 export const ProjectList = [
   {
-    img: "/cinema.jpg",
+    img: `${process.env.PUBLIC_URL}/cinema.jpg`,
     title: "Cinema",
     description: "Petit site de base données de films",
     tech_stack: ["HTML, CSS, Node.js, React, Material UI"],
-    git_hub: "https://github.com/",
+    git_hub: "https://github.com/Kaneki-Ken993?tab=repositories",
     demo_url: "Voir le site",
   },
   {
-    img: "/chatty.png",
+    img: `${process.env.PUBLIC_URL}/chatty.png`,
     title: "Chatty",
     description:
       "une application web de chat en temps réel qui propose une messagerie cryptée de bout en bout, des discussions de groupe, des discussions privée",
     tech_stack: ["HTML, CSS, JavaScript, Node.js, React"],
-    git_hub: "https://github.com/",
+    git_hub: "https://github.com/Kaneki-Ken993?tab=repositories",
     demo_url: "Voir le site",
   },
   {
-    img: "/",
-    title: "",
-    description: "",
-    tech_stack: [""],
-    git_hub: "https://github.com/",
+    img: `${process.env.PUBLIC_URL}/grid.gif`,
+    title: "Hackathon",
+    description: "Une site de reservations",
+    tech_stack: ["React, Nodejs, MongoDB, Expressjs"],
+    git_hub: "https://github.com/Kaneki-Ken993?tab=repositories",
     demo_url: "Voir le site",
   },
 ];
