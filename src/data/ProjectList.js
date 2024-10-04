@@ -1,5 +1,13 @@
 export const ProjectList = [
   {
+    img: `${process.env.PUBLIC_URL}/code4sud.png`,
+    title: "Hackathon",
+    description: "Participation au hackathon de Code4Sud 2024 sur le développement d'une intelligence artificielle. (On était l'une des meilleur équipes)",
+    tech_stack: ["OpendataApi, Express.js, Node.js, Ollama"],
+    git_hub: "https://github.com/Kaneki-Ken993?tab=repositories",
+    demo_url: "https://dev.ia4sud.fr/",
+  },
+  {
     img: `${process.env.PUBLIC_URL}/cinema.jpg`,
     title: "Cinema",
     description: "Petit site de base de données de films",
