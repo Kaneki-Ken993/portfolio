@@ -22,7 +22,7 @@ export const ProjectList = [
       "une application web de chat en temps réel qui propose une messagerie chiffrée de bout en bout, des discussions de groupe, des discussions privées",
     tech_stack: ["HTML, CSS, JavaScript, Node.js, React"],
     git_hub: "https://github.com/Kaneki-Ken993?tab=repositories",
-    demo_url: "Voir le site",
+    demo_url: "https://chatty-upde.vercel.app/",
   },
   {
     img: `${process.env.PUBLIC_URL}/grid.gif`,
