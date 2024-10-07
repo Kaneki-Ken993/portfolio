@@ -54,7 +54,7 @@ function About() {
                 <br /> 
                 <div className="tagline2">
                   <strong>
-                    J'ai utilisé ces technologies tout au long de ma vie :
+                    Technologies:
                   </strong>
                 </div>
               </ScrollAnimation>
