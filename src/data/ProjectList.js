@@ -8,12 +8,12 @@ export const ProjectList = [
     demo_url: "https://dev.ia4sud.fr/",
   },
   {
-    img: `${process.env.PUBLIC_URL}/cinema.jpg`,
+    img: `${process.env.PUBLIC_URL}/cinema.png`,
     title: "Cinema",
-    description: "Petit site de base de données de films",
-    tech_stack: ["HTML, CSS, Node.js, React, Material UI"],
+    description: "Petit site de base de données de films créé avec l’api TMDB",
+    tech_stack: ["React, Tailwind, Context API, React Router, TMDB API"],
     git_hub: "https://github.com/Kaneki-Ken993?tab=repositories",
-    demo_url: "Voir le site",
+    demo_url: "https://cinema-beige-tau.vercel.app/",
   },
   {
     img: `${process.env.PUBLIC_URL}/chatty.png`,
