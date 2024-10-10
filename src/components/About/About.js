@@ -24,7 +24,7 @@ function About() {
                 Salut, C'est <strong>Omar El Hadi</strong>. Actuellement en formation pour devenir
                 Développeur web á la
                 <strong> Web@Cadémie By Epitech Marseille</strong>, je suis à la
-                recherch d'un contrat d'alternance de 14 mois à partir de maintenant,
+                recherche d'un contrat d'alternance de 14 mois à partir de maintenant,
                 je suis un jeune étudiant souhaitant se
                 spécialisant dans le développement web. J'oriente mes études
                 dans ce domaine, guidé par mon désir d'apprendre et ma
