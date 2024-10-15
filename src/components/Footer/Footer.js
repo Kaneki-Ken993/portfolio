@@ -1,6 +1,5 @@
-import React from "react";
 import styled from "styled-components";
-
+import CopyrightSection from "./CopyrightSection";
 const FooterSection = styled.footer`
     background-image: url(/footer_wave.svg);
     background-repeat: no-repeat;
@@ -23,6 +22,7 @@ function Footer() {
   return (
     <FooterSection>
       <div className="Container" />
+      <CopyrightSection />
     </FooterSection>
   );
 }

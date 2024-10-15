@@ -42,7 +42,7 @@ export const NavMenu = styled.div`
 `;
 
 export const NavLink = styled(ScrollLink)`
-  color: rgb(119, 119, 121);
+  color: rgb(172, 172, 173);
   display: flex;
   align-items: center;
   font-size: 1.3rem;

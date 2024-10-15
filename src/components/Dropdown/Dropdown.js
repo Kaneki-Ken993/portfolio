@@ -57,6 +57,13 @@ export const NavBtn = styled.div`
 `;
 
 function Dropdown({ isOpen, toggle }) {
+   const downloadPdf = () => {
+     const pdfUrl = "/CV.pdf";
+     const link = document.createElement("a");
+     link.href = pdfUrl;
+     link.download = "CV.pdf";
+     link.click();
+   };
   return (
     <SiderBar isOpen={isOpen} onClick={toggle}>
       <CloseIcon onClick={toggle} />
@@ -72,13 +79,13 @@ function Dropdown({ isOpen, toggle }) {
         </NavLink>
       </NavMenu>
       <NavBtn onClick={toggle}>
-        <a className="btn PrimaryBtn"
-        href="https://linkedin.com/in/omar-el-hadi-90011b2a5"
+        <button className="btn PrimaryBtn"
+        onClick={downloadPdf}
         target="_blank"
         rel="noopener noreferrer"
         >
           CV
-        </a>
+        </button>
       </NavBtn>
     </SiderBar>
   );

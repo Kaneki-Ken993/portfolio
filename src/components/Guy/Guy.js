@@ -32,7 +32,7 @@ function Guy() {
                 <TypeAnimation
                   cursor={false}
                   sequence={[
-                    "Bonjour, je suis Omar El Hadi",
+                    "Bonjour, je suis Omar",
                     () => setShowSubtitle(true),
                   ]}
                   speed={{ type: "keyStrokeDelayInMs", value: 150 }}
@@ -51,6 +51,8 @@ function Guy() {
                       "Un penseur innovant",
                       1000,
                       "Un utilisateur Linux",
+                      1000,
+                      "Étudiant en développement web",
                       1000,
                       "Faites défiler la page pour voir mes projets",
                       300,

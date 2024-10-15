@@ -39,40 +39,41 @@ export const GuyWrapper = styled.div`
 `;
 
 export const GuyLeft = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  flex: 1;
 
-    h1 {
-        font-size: 2.8rem;
-        color: #f6f6f6;
-        opacity: 0.98;
-        font-weight: 400;
-    }
+  h1 {
+    font-size: 2.8rem;
+    color: #f6f6f6;
+    opacity: 0.98;
+    font-weight: 400;
+  }
 
-    h5 {
+  h5 {
     font-size: 1.6rem;
-    color: rgb(119, 119, 121);
+    color: rgb(172, 172, 173);
     margin-bottom: 1rem;
     font-weight: 400;
-    }
+  }
 
-    p {
+  p {
     font-size: 17px;
     color: #f6f6f6;
     opacity: 0.85;
-    }
+  }
 
-    @media screen and (max-width: 992px) {
-        text-align: center;
-        align-items: center;
-        margin-bottom: 2rem;
-        h5 {
-        min-height: 5rem;}
+  @media screen and (max-width: 992px) {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    h5 {
+      min-height: 5rem;
     }
+  }
 `;
 
 export const GuyRight = styled.div`
